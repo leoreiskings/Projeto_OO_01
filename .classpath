@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/workspace-coti-curso-webdeveloper-java-fullstack-2aVEZ/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace-coti-curso-webdeveloper-java-fullstack-java11/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace-coti-curso-webdeveloper-java-fullstack-java11/mysql-connector-java-8.0.29.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

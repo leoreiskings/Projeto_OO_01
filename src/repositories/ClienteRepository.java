@@ -26,7 +26,7 @@ public class ClienteRepository {
 			printWriter.flush();
 			printWriter.close();
 
-			System.out.println("\nDados gravados com Sucessoe m formato Txt!");
+			System.out.println("\nDados gravados com Sucesso em formato Txt!");
 
 		} catch (Exception e) {
 			System.out.println("\nOcorreu um erro ao gerar arquivo: " + e.getMessage());
