@@ -15,12 +15,14 @@ public class Program {
 		cliente.setNome("Leandro Reis");
 		cliente.setCpf("123.456.789-00");
 		cliente.setEmail("leo19reis@gmail.com");
+		cliente.setIdade(43);
 
 		System.out.println("\nDados do Cliente:\n");
 		System.out.println("ID do Cliente: " + cliente.getIdCliente());
 		System.out.println("Nome.........: " + cliente.getNome());
 		System.out.println("CPF..........: " + cliente.getCpf());
 		System.out.println("Email........: " + cliente.getEmail());
+		System.out.println("Idade........: " + cliente.getIdade());
 
 		ClienteRepository clienteRepository = new ClienteRepository();
 		

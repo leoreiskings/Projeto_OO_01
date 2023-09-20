@@ -21,6 +21,7 @@ public class ClienteRepository {
 			printWriter.write("\nNome.........: " + cliente.getNome());
 			printWriter.write("\nCPF..........: " + cliente.getCpf());
 			printWriter.write("\nEmail........: " + cliente.getEmail());
+			printWriter.write("\nIdade........: " + cliente.getIdade());
 			printWriter.write("\n...");
 
 			printWriter.flush();
@@ -47,6 +48,7 @@ public class ClienteRepository {
 			mapa.put("nome", cliente.getNome());
 			mapa.put("cpf", cliente.getCpf());
 			mapa.put("email", cliente.getEmail());
+			mapa.put("idade", cliente.getIdade());
 			
 			JSONObject json = new JSONObject(mapa);
 

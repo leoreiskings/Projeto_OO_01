@@ -6,6 +6,15 @@ public class Cliente {
 	private String nome;
 	private String cpf;
 	private String email;
+	private Integer idade;
+	
+	public Integer getIdade() {
+		return idade;
+	}
+
+	public void setIdade(Integer idade) {
+		this.idade = idade;
+	}
 
 	public void setIdCliente(Integer idCliente) {
 		this.idCliente = idCliente;
